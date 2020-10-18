@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.about h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+}
+
+.title p {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.second {
+    margin: 60px 0px;
+}
+
+.service-1 {
+    border: 1px solid #faf9ff;
+    background: #faf9ff;
+    padding: 20px 30px;
+}
+
+.service-1 :hover {
+    background: white;
+    box-shadow: 0px 10px 20px 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.service-1 h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+}
+
+.service-1 i {
+    font-size: 42px;
+}
+
+.feature {
+    width: 100%;
+    background-color: #faf9ff;
+    padding: 80px 0px;
+}
+
+.feature h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.feature p {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+button {
+    padding: 15px 40px;
+    border: 2px solid #21146a;
+    border-radius: 35px;
+    background: transparent;
+    color: #21146a;
+    font-weight: 700;
+}
+
+button:hover {
+    background: #21146a;
+    color: white;
+    transition: 00.5s;
+}
